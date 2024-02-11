@@ -1,0 +1,217 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background: #222222;
+	line-height: 1;
+}
+.bar_wrap {
+	background: #222222;
+	height: 80px; 
+}
+.bar {
+	position: relative;
+    background: transparent;	
+	height: 80px;
+	margin-left: 70px;
+	margin-right: 70px;
+	border-bottom: 1px solid #ffffff;
+}
+.logo {
+	position: absolute;
+	float: left;	
+}
+.main-nav {
+	position: absolute;
+	display: flex;
+	height: 80px;
+	right: 25%;
+	left: 25%;
+	justify-content: center;
+	align-items: center;
+	font-size: 0px;
+}
+.bar ul li {
+	display: inline-block;
+}
+.bar ul li a {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	text-align: left;
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav-link {
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 17px;
+}
+.nav-link:hover {
+	border-bottom: 2px solid #ffffff;
+}
+.sign {
+	position: absolute;
+	right: 0%;
+	bottom: 30%;
+	word-spacing: 15px;
+}
+.signup {
+	display: inline-block;
+	word-spacing: normal;
+}
+.login {
+	display: flex;
+	background-color: #222222;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	width: 60px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+}
+.icon1 {
+	position: absolute;
+	float: left;
+	z-index: -1;
+}
+.content-layout {
+	position: relative;
+	background: transparent;
+	margin-left: 70px;
+	margin-right: 70px;
+	height: 100vh;
+}
+.main-content {
+	position: absolute;
+	top: 40%;
+	word-spacing: 2px;
+	font-size: 50px;
+}
+.main-contents {
+	position: relative;
+	height: 280px;
+}
+.words {
+	display: inline-block;
+	word-spacing: normal;
+	font-weight: bold;
+}
+#words1 {
+	color: #ffffff;
+}
+#words2 {
+	color: #de3d3d;
+}
+.movie-link{
+	position: relative;
+	height: 100%;
+}
+.movie-choosing {
+	position: relative;
+	top: 35%;
+}
+.movie-linked {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: "Inter";
+}
+.movie-select {	
+	display: flex;
+	background-color: #5d5d5d;
+	width: 120px;
+	height: 40px;
+	border-radius: 7px;
+	align-items: center;
+}
+#word-movie {
+	display: inline-block;
+	position: sticky;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+#inline {
+	display: inline-block;
+}
+.movie-dating {
+	position: absolute;
+	background: ur;
+	background-color: #5d5d5d;
+	color: #ffffff;
+	font-family: "Roboto Mono",monospace;
+	font-size: 15px;
+	width: 125px;
+	height: 40px;
+	padding-left: 5px;
+	border: none;
+	outline: none;
+	border-radius: 7px;
+	top: 27.5%;
+}
+::-webkit-calendar-picker-indicator{
+	background-color: transparent;
+	cursor: pointer;
+	margin-right: 5px ;
+}
+.movie-locate {
+	position: relative;
+	display: flex;
+	background-color: #5d5d5d;
+	color: #ffffff;
+	width: 120px;
+	height: 40px;
+	left: 130px;
+	border-radius: 7px;
+	align-items: center;
+}
+#location-movie {
+	display: inline-block;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.find-ticket {
+	position: relative;
+	top: 50%;
+}
+.block-find-ticket {
+	display: flex;
+	background-color: #991a1a;
+	border-radius: 10px 10px;
+	width: 50%;	
+	height: 55px;
+	align-items: center;
+	justify-content: center;
+}
+#word-find-ticket {
+	font-size: 30px;
+	padding-left: 7px;
+	padding-right: 7px;
+	text-decoration: none;
+	color: #161616;
+	font-weight: 600;
+}
